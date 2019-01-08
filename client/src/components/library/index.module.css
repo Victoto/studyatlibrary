@@ -1,0 +1,87 @@
+
+.navContent {
+  width: 350px;
+  margin-left: 200px;
+  margin-top: 50px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 3em;
+  text-align: left;
+}
+
+.libraryList {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.page {
+  height: 100vh;
+  background-color: #F4F5F5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  margin-bottom: 50px;
+}
+
+.navContainer {
+  width: 30vw;
+  min-width: 250px;
+  display: flex;
+}
+.imgContainer {
+  min-width: 900px;
+  display: flex;
+  position: relative;
+}
+
+.intro {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  text-align: left;
+  text-decoration: underline;
+  width: 250px;
+  min-width: 250px;
+  position: absolute;
+  right: -100px;
+  top: 200px;
+  z-index: 2;
+}
+
+
+
+.img {
+  height: 100vh;
+  min-height: 700px;
+  width: 100vh;
+  min-width: 700px;
+  align-items: flex-end;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.footer {
+  background-color: #F4F5F5;
+}
+
+
+/* ======= Font families available ======= */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Frank Ruhl Libre', serif; */
+/* font-family: 'Archivo', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Rubik', sans-serif;  */
+
+
